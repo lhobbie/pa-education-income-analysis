@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-13T04:14:19.892006+00:00",
+  "_captured_run_id": "r_dc73d78cd83343c1abce6981219939d2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote match (13 rows, 6 columns).",
+    "NOTE: Wrote match1 (13 rows, 7 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
