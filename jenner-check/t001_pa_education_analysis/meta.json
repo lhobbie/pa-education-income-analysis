@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_pa_education_analysis",
+  "source_file": "pa_education_analysis.sas",
+  "source_blob_sha": "0b608f840f4414802fdcb142ed9c2eb42d865cc9",
+  "source_commit": "5f8678cd97f67eab61d7f23d160e35707a44f056",
+  "notes": "Full PA education/income analysis: PROC IMPORT XLSX x2 -> clean/standardize zips (PUT z5.) -> PROC SORT -> MERGE (matched + partition) -> PROC UNIVARIATE quartiles -> PROC FORMAT + quartile classification -> PROC MEANS/PROC TABULATE by group -> PROC SGPLOT scatter. Two PROC IMPORT steps replaced with DATA-step DATALINES (self-contained; the shipped runner submits only the script). Grad sample is real PA zip codes/cities/rates from pa_grad_zip_code.xlsx; income sample constructed to match the Zip/mean/Median/Pop columns the script reads (income_zip_code.xlsx in the repo is a 2-byte placeholder). Column names use the plain SAS names PROC IMPORT yields under VALIDVARNAME=V7; all downstream analysis logic, thresholds, and procs preserved verbatim."
+}
