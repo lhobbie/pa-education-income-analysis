@@ -45,4 +45,4 @@ Villanova University | 3.92 GPA | Dean's List All Semesters
 
 ## Related Projects
 
-- [Global Happiness Index Analysis (R)](https://github.com/lhobbs2023-wq/world-happiness-analysis)
+- [Global Happiness Index Analysis (R)](https://github.com/lhobbie/world-happiness-analysis)
